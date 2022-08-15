@@ -1,0 +1,86 @@
+ 
+ .btn{
+     background-color: #fff;
+     border-radius: 30px;
+     padding: 12px 0px;
+     transform: scale(0.8);
+    
+ }
+ .color-underline{
+     border-bottom: 5px solid  hsl(51, 100%, 80%);
+     border-radius: 3px;
+
+   
+    
+     
+ }
+ .color-underline:hover{
+     border-color:  hsl(51, 100%, 49%);
+ }
+
+
+ .capital{
+     text-transform: uppercase;
+ }
+ .container { /* Container is necessary as i dont want the logo to be in the far left. The logo needs to be a bit to the middle*/
+    max-width: 1500px;
+    margin: 0 auto;  /* this CENTERS the content in the container*/
+    padding: 15px 40px; /* now even screens smaller tham 1500px have the logo a bit to the center*/
+
+ }
+.container-center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 150px;
+}
+
+
+
+ .navbar ul{
+        display: flex;
+    
+     }
+ 
+ .flex{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      
+  }
+
+  .grid{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+  }
+
+  .text-center{
+      text-align: center;
+  }
+
+  /* Typography */
+
+  .barlow{
+      font-family: 'barlow',sans-serif;
+      font-weight: 600;
+  }
+  .Fraunces{
+      font-family: 'Fraunces', sans-serif;
+  }
+
+  /* Text sizes */
+
+  .sm{
+    font-size: 1rem;
+}
+.md{
+    font-size: 2rem;
+}
+.lg{
+    font-size: 3rem;
+}
+.xl{
+    font-size: 4rem;
+}
+
+  

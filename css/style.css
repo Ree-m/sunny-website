@@ -1,3 +1,75 @@
-body{
-    font-family: 'barlow',sans-serif;
+/* .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } */
+html{
+    font-size: 18px;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+h1,h2{
+    margin: 10px 0;
+    line-height: 1.6;
+}
+p{
+    line-height: 1.7;
+    margin: 40px 0;
+}
+
+img{
+    width: 100%;
+}
+
+
+/* =============Header============ */
+
+.header{
+    height: 700px;
+    background:url('../images/desktop/image-header.jpg');
+    background-position:bottom ;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.header .flex{
+    justify-content: space-between;
+}
+
+.navbar a{
+    color: #fff;
+    padding: 10px;
+    margin: 0 15px;
+    font-weight: 600;
+ } 
+ .sm-underline a:hover{
+     border-bottom: 2px solid #fff;
+ }
+ .navbar .btn{
+     color:#000
+ }
+ .navbar .btn:hover{
+     background-color: #b1e0fd;
+     transform: scale(0.90);  /* 1 is the default, so at 0.90, the btns get smaller*/
+ }
+.logo{
+    color: #fff;
+    
+}
+.headline{
+    color: #fff;
+    margin: 90px 0;
+}
+
+/* ========= content-egg========= */
+
+.content-egg p{
+    color:hsl(232, 10%, 55%);
 }
