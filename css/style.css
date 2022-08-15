@@ -33,7 +33,7 @@ img{
 /* =============Header============ */
 
 .header{
-    height: 700px;
+    height: 800px;
     background:url('../images/desktop/image-header.jpg');
     background-position:bottom ;
     background-size: cover;
@@ -52,12 +52,12 @@ img{
  .sm-underline a:hover{
      border-bottom: 2px solid #fff;
  }
- .navbar .btn{
-     color:#000
- }
+  .btn a{
+      color:#000;
+  }
  .navbar .btn:hover{
      background-color: #b1e0fd;
-     transform: scale(0.90);  /* 1 is the default, so at 0.90, the btns get smaller*/
+     transform: scale(0.77);  /* 1 is the default, so at 0.90, the btns get smaller*/
  }
 .logo{
     color: #fff;
@@ -68,8 +68,20 @@ img{
     margin: 90px 0;
 }
 
-/* ========= content-egg========= */
+/* ========= Section-2========= */
 
-.content-egg p{
+.content-2 p,
+.content-3 p{
     color:hsl(232, 10%, 55%);
 }
+
+/* ========Section-3*/
+.content-3 .color-underline{
+    border-bottom: 5px solid hsl(7, 99%, 85%);
+}
+
+.content-3 .color-underline:hover{
+    border-bottom: 5px solid hsl(7, 99%, 70%);
+}
+
+/* =============cherry-orange======== */
