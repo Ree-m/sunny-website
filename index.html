@@ -5,14 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900" rel="stylesheet"> -->
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;1,300;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;900&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;1,300;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+Pro&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/utilities.css">
   <link rel="stylesheet" href="css/style.css">
@@ -35,13 +31,17 @@
                 <li class="sm-underline"><a href="#">About</a></li>
                 <li class="sm-underline"><a href="#">Services</a></li>
                 <li class="sm-underline"><a href="#">Projects</a></li>
-                <li class="btn capital"  ><a href="#" id="li-black">Contact</a></li>
+                <li class="btn capital"><a href="#">Contact</a></li>
              </ul>
          </nav>
        </div>
        <div class="headline Fraunces capital md">
            <h1 class="text-center">W e &nbsp a r e &nbsp c r e a t i v e s</h1>
        </div> 
+       <div class="arrow text-center">
+        <span>&#8595;</span>
+
+       </div>
 
     </div>
     
@@ -84,56 +84,86 @@
 
   </section>
 
+  <!-- section-4/cherry-orange -->
   <section class="cherry-orange grid">
-    <div class="cherry">
-      <h3>Graphic design</h3>
-      <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+    <div class="cherry flex-2">
+      <h3 class="Fraunces ">Graphic design</h3>
+      <p class="barlow text-center">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
     </div>
 
-    <div class="orange">
-      <h3Photographyh3>
-      <p>  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+    <div class="orange flex-2">
+      <h3 class="Fraunces">Photography</h3>
+      <p class="barlow text-center">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
     </div>
 
   </section>
- 
 
-  
+  <section class="testimonials">
 
-  <!-- 
+    <h3 class="text-center Fraunces capital">Client testimonials</h3>
+    <div class="clients grid-3 barlow">
+        <div class="client-1">
+          <img src="images/image-emily.jpg" alt="" class="img-circle">
+          <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+          <h4 class="Fraunces">Emily R.</h4>
+          <span>Marketing Director</span>
+          
+        </div>
 
- 
+        <div class="client-2">
+          <img src="images/image-thomas.jpg" alt="" class="img-circle">
+          <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+          <h4 class="Fraunces">Thomas S.</h4>
+          <span>Chief Operating Officer</span>
+          
+        </div>
 
-  
+        <div class="client-3">
+          <img src="images/image-jennie.jpg" alt="" class="img-circle">
+          <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+          <h4 class="Fraunces">Jennie F.</h4>
+          <span>Business Owner</span>
+        
+        </div>
+   </div>
+  </section>
+
+  <section class="gallery grid-4">
+    <img src="images/desktop/image-gallery-milkbottles.jpg" alt=" a milk bottle">
+    <img src="images/desktop/image-gallery-orange.jpg" alt="an orange">
+    <img src="images/desktop/image-gallery-cone.jpg" alt="an icecream cone">
+    <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="sugar cubes">
 
 
-  
+  </section>
 
-  
-  
+  <section class="footer">
+    <div class="logo text-center">sunnyside</div>
+    <div class="footer-navbar">
+      <nav>
+        <ul class="flex">
+          <li><a href="">About</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Projects</a></li>
+        </ul>
+      </nav>
+    </div>
 
-  Client testimonials
+    <div class="icons text-center">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-pinterest"></i>
+    </div>
 
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-  Emily R.
-  Marketing Director
-
-  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-  Thomas S.
-  Chief Operating Officer
-
-  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-  Jennie F.
-  Business Owner
-
-  About
-  Services
-  Projects
-  Contact -->
-   
-  <!-- <div class="attribution">
+     
+  <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
+    Coded by <a href="#">Reem</a>.
+  </div>  
+
+  </section>
+ 
+<script src="main.js"></script>
 </body>
 </html>

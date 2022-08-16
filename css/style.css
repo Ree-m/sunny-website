@@ -1,5 +1,4 @@
-/* .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); } */
+
 html{
     font-size: 18px;
 }
@@ -27,6 +26,7 @@ p{
 
 img{
     width: 100%;
+    height: 100%;
 }
 
 
@@ -48,12 +48,14 @@ img{
     padding: 10px;
     margin: 0 15px;
     font-weight: 600;
+    font-family: 'barlow',sans-serif;
  } 
  .sm-underline a:hover{
      border-bottom: 2px solid #fff;
  }
   .btn a{
       color:#000;
+      font-family: 'Fraunces',sans-serif;
   }
  .navbar .btn:hover{
      background-color: #b1e0fd;
@@ -61,11 +63,21 @@ img{
  }
 .logo{
     color: #fff;
+    font-weight: 900;
     
 }
 .headline{
     color: #fff;
     margin: 90px 0;
+}
+.arrow{
+    font-size: 100px;
+    color: #fff;
+}
+.arrow:hover{
+    transform: scale(1.2);
+    color:#b1e0fd;
+
 }
 
 /* ========= Section-2========= */
@@ -77,11 +89,104 @@ img{
 
 /* ========Section-3*/
 .content-3 .color-underline{
+    font-weight: 900;
     border-bottom: 5px solid hsl(7, 99%, 85%);
 }
 
 .content-3 .color-underline:hover{
+    font-weight: 900;
     border-bottom: 5px solid hsl(7, 99%, 70%);
 }
 
 /* =============cherry-orange======== */
+.cherry-orange{
+    height: 600px;
+    
+    
+}
+.cherry{
+    background-image: url('../images/desktop/image-graphic-design.jpg');
+    color: hsl(167, 40%, 24%);
+
+}
+.orange{
+
+    background-image: url('../images/desktop/image-photography.jpg');
+    color: hsl(198, 62%, 26%);
+
+}
+
+.orange,
+.cherry{
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:0 100px;
+}
+
+
+/* ========testimonials */
+
+.testimonials{
+    padding: 50px 100px ;
+    text-align: center;
+}
+.testimonials h3{
+    padding: 70px 0 ;
+    color: hsl(232, 10%, 55%);
+}
+.testimonials span{ 
+    color: hsl(232, 10%, 55%);
+
+}
+
+.img-circle{
+    border-radius: 50%;
+    width:200px;
+    height: auto;
+}
+.clients p{
+    color: hsl(213, 9%, 39%);
+    font-family: 'barlow',sans-serif;
+    
+}
+.clients h4{
+    padding: 20px 0;
+}
+
+
+/* =========== Footer ============ */
+.footer{
+    background-color: hsl(168, 34%, 75%);
+    height: 300px;
+    color:  hsl(168, 34%, 41%);
+    font-family: 'barlow',sans-serif;
+}
+.footer .logo{
+    padding:30px 0 0 0;
+    color:hsl(168, 34%, 41%);
+    font-size:larger;
+    font-weight: 900;
+}
+
+.footer-navbar a{
+    color:  hsl(168, 34%, 41%);
+}
+.footer-navbar ul li{
+    padding: 40px 20px;
+}
+.icons{
+ padding-bottom: 20px;
+}
+.icons i{
+    padding: 0 10px;
+}
+
+.icons i:hover,.footer-navbar a:hover{
+    color: #fff;
+}
+.attribution {
+     font-size: 11px; text-align: center; 
+    }
+.attribution a {
+     color: rgb(131, 131, 238); 
+    }

@@ -9,7 +9,7 @@ The designs were created to the following widths:
 
 ## Colors 
 
-### Primary
+### Primary 
 
 - Soft red: hsl(7, 99%, 70%)
 - Yellow: hsl(51, 100%, 49%)
